@@ -26,7 +26,7 @@ var move_stalin_func = function() {
     stalin.style.left = stalin_spz + 'px';
     stalin.style.top = stalin_spz_y + 'px';
 
-    if( stalin_spz == 1000 ) {
+    if( stalin_spz >= screen.availWidth - 20 ) {
         stalin_spz = 0;
         stalin_spz_y = 0;
     }
@@ -36,7 +36,7 @@ var move_func = function() {
     spz++
     suwa_op.style.right = spz + "px";
 
-    if( stalin_spz >= screen.availWidth - 20 ) {
+    if( spz >= screen.availWidth - 20 ) {
         spz = 0;
     }
 }
