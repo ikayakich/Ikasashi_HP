@@ -36,7 +36,7 @@ var move_func = function() {
     spz++
     suwa_op.style.right = spz + "px";
 
-    if( spz == 1100 ) {
+    if( stalin_spz >= window.innerWidth ) {
         spz = 0;
     }
 }
