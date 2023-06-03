@@ -33,7 +33,7 @@ var move_stalin_func = function() {
             stalin_spz = 0;
             stalin_spz_y = 0;
         } else {
-            if( stalin_spz >= screen.availWidth - screen.availWidth / 8 ) {}
+            if( stalin_spz >= screen.availWidth - screen.availWidth / 6 ) {}
         }
     }
 }
@@ -46,7 +46,7 @@ var move_func = function() {
         if( spz >= screen.availWidth - screen.availWidth / 100 ) {
             spz = 0;
         } else {
-            if( spz >= screen.availWidth - screen.availWidth / 200 ) {
+            if( spz >= screen.availWidth - screen.availWidth / 150 ) {
                 spz = 0;
             }
         }
