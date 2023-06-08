@@ -37,6 +37,11 @@ sv.currentTime = 0;
 
 var stalin = document.getElementById('stalin');
 stalin.style.position = 'absolute';
+stalin.style.opacity = 100;
+
+var sj = document.getElementById('sj');
+sj.style.position = 'absolute';
+sj.style.left = '50%';
 
 var stalinzh;
 
@@ -57,8 +62,10 @@ var move_func = function() {
 }
 
 var ussrsound = function() {
-    ado.play();
-    move_stalin_func();
+    if( stalin.style.opacity != 0 ) {
+        ado.play();
+        move_stalin_func();
+    }
 }
 
 var firefunc = function() {
@@ -66,7 +73,7 @@ var firefunc = function() {
     fire.currentTime = 0;
     fire_img.style.opacity = 1;
     fire.play();
-    if( stalinzh.top <= 400 && stalinzh.top >= 150 ) {
+    if( stalinzh.top <= 400 && stalinzh.top >= 150 && stalin.style.opacity != 0 ) {
         stalin.style.opacity = 0;
         sv.play();
     }
