@@ -8,3 +8,7 @@
     border: solid;
     border-color: black;
 }
+
+#time {
+    text-color: gray;
+}
