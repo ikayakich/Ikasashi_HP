@@ -52,14 +52,6 @@
     -webkit-text-stroke: 0.5px black;
 }
 
-#muetext {
-    width: 150px;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 0%, rgba(244,255,0,1) 48%, rgba(0,212,255,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.5px black;
-}
-
 #cb {
     border-style: solid;
     border-width: 1px;
