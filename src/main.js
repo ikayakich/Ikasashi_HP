@@ -73,7 +73,7 @@ var firefunc = function() {
     fire.currentTime = 0;
     fire_img.style.opacity = 1;
     fire.play();
-    if( stalinzh.top <= 400 && stalinzh.top >= 150 && stalin.style.opacity != 0 ) {
+    if( stalinzh.top <= 400 && stalinzh.top >= 15 && stalin.style.opacity != 0 ) {
         stalin.style.opacity = 0;
         sv.play();
     }
