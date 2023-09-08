@@ -54,6 +54,11 @@ var sj = document.getElementById('sj');
 sj.style.position = 'absolute';
 sj.style.left = '50%';
 
+var gm = document.getElementById('gm');
+gm.style.position = 'absolute';
+gm.style.left = '50%';
+gm.style.top = '70px';
+
 var putin = document.getElementById('putin');
 putin.style.position = 'absolute';
 putin.style.left = '0px';
